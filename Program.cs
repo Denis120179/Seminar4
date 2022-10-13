@@ -29,7 +29,7 @@ int Exponent (int number1, int number2)
 
 // Задача 27
 // Напишите программу, которая принимает на вход число и выдает сумму цифр в числе
-/*
+
 Console.WriteLine("Введите число:  ");
 int N = int.Parse(Console.ReadLine()!);
 Console.WriteLine($"Сумма цифр в числе равна {SumFigure(N)}");
@@ -43,7 +43,7 @@ int SumFigure (int num)
     }
     else
     {
-        while(num/10 > 1)
+        while(num/10 >= 1)
         {           
             result = result + num%10;
             num = num/10;
@@ -52,7 +52,7 @@ int SumFigure (int num)
     } 
 return result;
 }
-*/
+
 
 // Задача 29
 // Напишите программу, которая задает массив из 8 элементов и выводит их на экран
